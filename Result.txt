@@ -1,0 +1,5 @@
+[ 15][                                        int __cdecl main(void)] Start.
+[ 29][       void __thiscall hukusuke::contents_a::act_request(void)] Contents A.
+[ 40][       void __thiscall hukusuke::contents_b::act_request(void)] Contents B.
+[ 51][       void __thiscall hukusuke::contents_c::act_request(void)] Contents C.
+[ 30][                                        int __cdecl main(void)] Terminate.
