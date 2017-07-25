@@ -153,7 +153,7 @@
     <ClCompile Include="contents_factory.cpp" />
     <ClCompile Include="contents_framework.cpp" />
     <ClCompile Include="logout.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ExFactory.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
