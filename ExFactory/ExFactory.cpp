@@ -27,6 +27,11 @@ int main(void) {
 	if (NULL != contents_b) { contents_b->request(); } else {}
 	if (NULL != contents_c) { contents_c->request(); } else {}
 
+	// Delete.
+	if (NULL != contents_a) { delete contents_a; contents_a = NULL; } else {}
+	if (NULL != contents_b) { delete contents_b; contents_b = NULL; } else {}
+	if (NULL != contents_c) { delete contents_c; contents_c = NULL; } else {}
+
 	LOG_OUTPUT("Terminate.");
 
 	return 0;
